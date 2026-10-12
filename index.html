@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دليل الدخول إلى تطبيق Moodle | التعليم الإلكتروني</title>
+<meta name="theme-color" content="#0b1033">
+<style>
+:root{--o:#f98012;--o2:#ffb35c;--n:#0b1033;--i:#2a1f7a;--g:rgba(255,255,255,.08);--b:rgba(255,255,255,.16);--t:#eef0ff;--m:#b9bde6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Cairo,"Noto Kufi Arabic","Noto Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;color:var(--t);min-height:100vh;line-height:1.7;
+background:radial-gradient(900px 600px at 100% -10%,rgba(249,128,18,.28),transparent 60%),radial-gradient(800px 700px at -20% 30%,rgba(110,80,255,.35),transparent 60%),linear-gradient(170deg,#0b1033 0%,#1a1458 50%,#0b1033 100%);background-attachment:fixed;overflow-x:hidden}
+.w{max-width:560px;margin:0 auto;padding:22px 16px 40px}
+.glass{background:var(--g);border:1px solid var(--b);border-radius:24px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 10px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.12)}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--m);margin-bottom:18px}
+.pill{padding:5px 12px;border-radius:99px;background:rgba(249,128,18,.15);border:1px solid rgba(249,128,18,.4);color:var(--o2);font-weight:700}
+.hero{text-align:center;padding:28px 18px 24px;position:relative;overflow:hidden}
+.logo{width:92px;height:92px;margin:0 auto 14px;border-radius:26px;background:linear-gradient(145deg,#ff9a2e,#f26b00);display:grid;place-items:center;box-shadow:0 12px 40px rgba(249,128,18,.55);animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-7px)}}
+h1{font-size:28px;font-weight:900;line-height:1.35}
+h1 span{background:linear-gradient(90deg,var(--o2),var(--o));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--m);font-size:15.5px;margin-top:8px}
+.dl{display:grid;gap:12px;margin:22px 0 6px}
+.btn{display:flex;align-items:center;gap:12px;padding:13px 16px;border-radius:18px;text-decoration:none;color:#fff;border:1px solid var(--b);background:rgba(255,255,255,.06);transition:transform .2s,box-shadow .2s}
+.btn:active{transform:scale(.97)}
+.btn small{display:block;font-size:12px;color:var(--m);line-height:1.2}
+.btn b{font-size:18px;line-height:1.3}
+.btn .ic{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.1);display:grid;place-items:center;flex:none}
+.btn .ar{margin-inline-start:auto;font-size:20px;opacity:.7}
+.btn.hl{background:linear-gradient(135deg,#ff9a2e,#f26b00);border-color:transparent;box-shadow:0 10px 30px rgba(249,128,18,.5);animation:pulse 2.4s infinite}
+.btn.hl small{color:#fff3e4}
+.btn.hl .tag{display:inline-block}
+.tag{display:none;font-size:11px;background:#fff;color:#c75400;border-radius:99px;padding:1px 8px;margin-inline-start:6px;font-weight:800;vertical-align:middle}
+@keyframes pulse{0%,100%{box-shadow:0 10px 30px rgba(249,128,18,.45)}50%{box-shadow:0 10px 44px rgba(249,128,18,.8)}}
+.hint{font-size:13px;color:var(--m);text-align:center}
+h2{font-size:20px;font-weight:800;margin:30px 4px 14px;display:flex;align-items:center;gap:8px}
+.step{padding:20px 18px;margin-bottom:16px;opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+.step.in{opacity:1;transform:none}
+.sh{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.num{width:42px;height:42px;flex:none;border-radius:14px;background:linear-gradient(145deg,#ff9a2e,#f26b00);display:grid;place-items:center;font-weight:900;font-size:20px;box-shadow:0 6px 18px rgba(249,128,18,.45)}
+.step h3{font-size:18px;font-weight:800;line-height:1.4}
+.step p{color:#d6d9f5;font-size:15.5px}
+.k{display:inline-block;direction:ltr;unicode-bidi:isolate;background:rgba(249,128,18,.18);color:var(--o2);border:1px solid rgba(249,128,18,.4);border-radius:8px;padding:0 8px;font-weight:800;font-family:Cairo,monospace}
+.phone{width:250px;margin:16px auto 4px;border-radius:30px;padding:10px;background:linear-gradient(160deg,#2b2f55,#121534);border:1px solid rgba(255,255,255,.18);box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.scr{border-radius:22px;background:#f6f7fb;color:#222;padding:14px 12px 16px;min-height:120px;position:relative;overflow:hidden;direction:ltr;text-align:left;font-size:12px}
+.notch{width:60px;height:6px;border-radius:9px;background:#d5d7e2;margin:0 auto 12px}
+.bar{display:flex;align-items:center;gap:8px;background:#fff;border-radius:10px;padding:8px 10px;box-shadow:0 1px 4px rgba(0,0,0,.12);font-size:12px}
+.lbl{font-size:11px;color:#666;margin:2px 2px 5px;font-weight:700}
+.typed{font-weight:800;color:#111;border-right:2px solid var(--o);padding-right:2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{border-color:transparent}}
+.res{margin-top:10px;background:#fff;border-radius:10px;padding:8px 10px;border:2px solid var(--o);box-shadow:0 4px 14px rgba(249,128,18,.35);position:relative}
+.res b{display:block;font-size:12px;color:#111}.res span{font-size:10.5px;color:#777}
+.tap{position:absolute;right:-4px;bottom:-14px;font-size:26px;animation:tap 1.6s infinite}
+@keyframes tap{50%{transform:translate(-4px,-5px) scale(.9)}}
+.app{display:flex;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:10px;box-shadow:0 1px 5px rgba(0,0,0,.1);margin-top:10px}
+.mi{width:40px;height:40px;border-radius:10px;background:linear-gradient(145deg,#ff9a2e,#f26b00);display:grid;place-items:center;flex:none}
+.get{margin-left:auto;background:var(--o);color:#fff;font-weight:800;border-radius:99px;padding:3px 12px;font-size:11px}
+.fld{background:#fff;border:1px solid #dcdfe8;border-radius:9px;padding:7px 10px;margin-bottom:8px;font-size:12px;color:#111}
+.go{background:var(--o);color:#fff;text-align:center;border-radius:9px;padding:7px;font-weight:800}
+.cred{display:grid;gap:10px;margin-top:12px}
+.cr{display:flex;justify-content:space-between;align-items:center;gap:10px;background:rgba(255,255,255,.06);border:1px dashed rgba(255,255,255,.25);border-radius:14px;padding:10px 14px;font-size:15px}
+.cr .k{font-size:16px}
+.tip{padding:18px;display:flex;gap:12px;align-items:flex-start;border-color:rgba(249,128,18,.45);background:linear-gradient(135deg,rgba(249,128,18,.14),rgba(255,255,255,.05))}
+.tip .e{font-size:30px;line-height:1}
+footer{text-align:center;margin-top:28px;color:var(--m);font-size:14px}
+footer b{display:block;color:#fff;font-size:18px;font-weight:800}
+.scr.ar{direction:rtl;text-align:right}
+.ltr{direction:ltr;unicode-bidi:isolate;text-align:left}
+.ttl{font-weight:800;font-size:12.5px;margin-bottom:10px}
+.flab{color:#2e7d32;font-size:10px;font-weight:700}
+.uline{display:flex;justify-content:space-between;border-bottom:1px solid #ccc;padding:3px 0 5px;font-weight:800;font-size:12px}
+.typed2{border-left:2px solid var(--o);padding-left:2px;animation:blink 1s steps(1) infinite}
+.hd{font-weight:800;font-size:11px;margin:10px 0 6px}
+.row{display:flex;align-items:center;gap:8px;padding:7px 6px;border-radius:10px;position:relative;line-height:1.35}
+.row b{display:block;font-size:10.5px}.row small{display:block;font-size:9.5px;color:#666}
+.row.dim{opacity:.45}.no{margin-inline-start:auto;color:#d33;font-weight:900}
+.ri{width:30px;height:30px;flex:none;border-radius:8px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.15);display:grid;place-items:center;font-size:14px}
+.row.ok{background:#fff;border:2px solid var(--o);box-shadow:0 4px 14px rgba(249,128,18,.35);margin-top:4px}
+.ul{width:32px;height:32px;flex:none;border-radius:50%;background:#1d8fd6;display:grid;place-items:center;box-shadow:inset 0 0 0 3px #fff,0 0 0 1px #1d8fd6}
+.ul span{color:#fff;font:800 8px/1 Cairo,sans-serif}
+.row .tap{right:auto;left:4px;bottom:-12px}
+.ol{margin:8px 22px 4px 0;color:#d6d9f5;font-size:15px}
+.rules{margin-top:12px;background:rgba(255,255,255,.06);border:1px dashed rgba(255,255,255,.25);border-radius:14px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:14px}
+.rules b{width:100%}.rules i{font-style:normal;font-size:12px}
+.ex{width:100%;margin-top:4px;color:var(--o2);font-weight:700}
+.illu{text-align:center;font-size:9.5px;color:#999;margin-top:6px}
+.ul.big{width:46px;height:46px;margin:0 auto 4px}.ul.big span{font-size:10px}
+.ctr{text-align:center;margin-bottom:8px}.ctr b{display:block;font-size:11.5px}.ctr small{display:block;font-size:9.5px;font-weight:700}
+.ltrr{direction:ltr}.lnk{text-align:center;text-decoration:underline;font-size:10.5px;margin-top:8px}
+.msg{font-weight:700;font-size:10.5px;margin:4px 0 10px}.msg2{font-size:10px;margin:12px 0 6px;color:#444}
+.ob{border:1px solid #999;border-radius:8px;text-align:center;padding:6px;font-weight:700;font-size:11px}
+.go{margin-top:8px}
+.scr.web{background:#eef0f4;padding:0 0 12px}.url{background:#ddd;font-size:8.5px;padding:6px 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:8px}
+.web>*:not(.url){margin-left:10px;margin-right:10px}
+.alert{background:#f6d6d6;color:#842029;border-radius:6px;padding:6px 8px;font-size:9.5px}
+.web .ttl{margin:8px 10px 4px}.wl{font-size:10px;margin-top:6px}.wf{background:#fff;border:1px solid #bbb;border-radius:6px;padding:4px 8px;font-size:10px;width:70%;min-height:22px}
+.req{display:inline-grid;place-items:center;width:12px;height:12px;border-radius:50%;background:#c62828;color:#fff;font-size:8px;font-style:normal}
+.cb{display:inline-grid;place-items:center;width:13px;height:13px;background:#1565c0;color:#fff;border-radius:3px;font-size:9px}
+.save{display:inline-block;background:#0f9be0;color:#fff;border-radius:7px;padding:5px 12px;font-size:10.5px;font-weight:700;margin-top:10px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.step{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="w">
+ <div class="top"><span>ذ/ بني سهيلا الإعدادية ب</span><span class="pill">التعليم الإلكتروني</span></div>
+
+ <section class="glass hero">
+  <div class="logo"><svg width="56" height="56" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 24 32 12l26 12-26 12z" fill="#fff"/><path d="M16 30v12c0 4 7 8 16 8s16-4 16-8V30l-16 7z" fill="#fff" opacity=".85"/><path d="M56 25v14" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg></div>
+  <h1>ادخل إلى <span>تطبيق Moodle</span><br>في سبع خطوات سهلة 🚀</h1>
+  <p class="sub">دليل الطالب وولي الأمر للدخول إلى منصة التعليم الإلكتروني</p>
+  <div class="dl">
+   <a id="gp" class="btn" href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" target="_blank" rel="noopener">
+    <span class="ic"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M4 2.5v19l10-9.5z" fill="#34d399"/><path d="M4 2.5 17 9.8l-3 2.7z" fill="#60a5fa"/><path d="M4 21.5 17 14.2l-3-2.7z" fill="#f87171"/><path d="m17 9.8 3.5 2c.7.4.7.9 0 1.3l-3.5 2-3-3z" fill="#fbbf24"/></svg></span>
+    <span><small>حمّل من</small><b>Google Play</b><span class="tag">لجهازك</span></span><span class="ar">‹</span></a>
+   <a id="as" class="btn" href="https://apps.apple.com/us/app/moodle/id633359593" target="_blank" rel="noopener">
+    <span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8s-1.8-.8-3-.8C7 7.2 5.5 8.1 4.7 9.6c-1.7 2.9-.4 7.3 1.2 9.6.8 1.2 1.8 2.4 3 2.4s1.7-.8 3.1-.8 1.9.8 3.1.8 2.1-1.2 2.8-2.3c.9-1.3 1.3-2.6 1.3-2.7 0 0-2.7-1-2.8-4zM14.2 5.5c.6-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.8-1 2.9 1.1.1 2.1-.5 2.8-1.3z"/></svg></span>
+    <span><small>حمّل من</small><b>App Store</b><span class="tag">لجهازك</span></span><span class="ar">‹</span></a>
+  </div>
+  <p class="hint">التطبيق مجاني، أيقونته برتقالية، والناشر Moodle Pty Ltd ✅</p>
+ </section>
+
+ <h2>📲 خطوات الدخول</h2>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">1</div><h3>نزّل تطبيق Moodle من المتجر</h3></div>
+  <p>افتح <b>Google Play</b> أو <b>App Store</b>، وابحث عن كلمة <span class="k">Moodle</span>، ثم اضغط «تثبيت».</p>
+  <div class="phone"><div class="scr"><div class="notch"></div>
+   <div class="bar">🔍 <span class="typed">Moodle</span></div>
+   <div class="app"><div class="mi"><svg width="24" height="24" viewBox="0 0 64 64"><path d="M6 24 32 12l26 12-26 12z" fill="#fff"/><path d="M16 30v12c0 4 7 8 16 8s16-4 16-8V30l-16 7z" fill="#fff" opacity=".85"/></svg></div><div><b style="font-size:12px">Moodle</b><br><span style="font-size:10px;color:#777">Moodle Pty Ltd</span></div><span class="get">Install</span></div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">2</div><h3>اكتب كلمة unrwa في خانة «موقعك»</h3></div>
+  <p>افتح التطبيق، فتظهر شاشة «الاتصال مع مودل». اكتب في خانة «موقعك» الكلمة <span class="k">unrwa</span> فقط.</p>
+  <div class="phone"><div class="scr ar"><div class="notch"></div>
+   <div class="ttl">→ الاتصال مع مودل</div>
+   <div class="flab">موقعك</div><div class="uline"><span class="typed2">Unrwa</span><span>✕</span></div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">3</div><h3>اضغط على السطر الذي فيه شعار الأونروا الأزرق</h3></div>
+  <p>تحت عبارة «لطفًا، حدد حسابك» يظهر سطران. <b>لا تضغط</b> على «اتصل بموقعك» ✏️، بل اضغط على سطر <b>UNRWA Moodle</b> صاحب الشعار الأزرق 👆</p>
+  <div class="phone"><div class="scr ar"><div class="notch"></div>
+   <div class="ttl">→ الاتصال مع مودل</div>
+   <div class="flab">موقعك</div><div class="uline"><span>Unrwa</span><span>✕</span></div>
+   <div class="hd">لطفًا، حدد حسابك</div>
+   <div class="row dim"><span class="ri">✏️</span><span><b>اتصل بموقعك</b><small>Unrwa</small></span><span class="no">✕</span></div>
+   <div class="row ok"><span class="ul"><span>unrwa</span></span><span><b>UNRWA Moodle مودل الانروا (UNRWA)</b><small class="ltr">moodle.unrwa.org/moodle</small><small>الأردن</small></span><div class="tap">👆</div></div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">4</div><h3>سجّل الدخول ببياناتك</h3></div>
+  <p>تظهر شاشة «تسجيل الدخول» وعليها «نظام التعليم الإلكتروني - غزة». اكتب اسم المستخدم وكلمة المرور، ثم اضغط الزر البرتقالي «تسجيل الدخول» 🔐</p>
+  <div class="cred">
+   <div class="cr"><span>👤 اسم المستخدم</span><b>رقم هوية الطالب</b></div>
+   <div class="cr"><span>🔑 كلمة المرور</span><span><span class="k">St@</span> + سنة الميلاد</span></div>
+   <div class="cr"><span>✏️ مثال</span><span class="k">St@2017</span></div>
+  </div>
+  <div class="phone"><div class="scr ar"><div class="notch"></div>
+   <div class="ttl">→ تسجيل الدخول</div>
+   <div class="ctr"><span class="ul big"><span>unrwa</span></span><b>نظام التعليم الإلكتروني - غزة</b><small class="ltr" style="text-align:center">https://moodle.unrwa.org/moodle</small></div>
+   <div class="uline ltrr"><span>400000000</span></div>
+   <div class="uline ltrr"><span>👁</span><span>•••••••</span></div>
+   <div class="go">تسجيل الدخول</div>
+   <div class="lnk">هل فقدت كلمة المرور؟</div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">5</div><h3>اضغط «تغيير كلمة المرور» (أول مرة فقط)</h3></div>
+  <p>عند أول دخول تظهر رسالة «يجب عليك تغير كلمة المرور ليتسنى لك الاستمرار». اضغط الزر البرتقالي <b>«تغيير كلمة المرور»</b> 👆 (ولا تضغط «تبديل الحساب»).</p>
+  <div class="phone"><div class="scr ar"><div class="notch"></div>
+   <div class="ttl">تغيير كلمة المرور</div>
+   <div class="msg">يجب عليك تغير كلمة المرور ليتسنى لك الاستمرار</div>
+   <div class="go" style="position:relative">تغيير كلمة المرور<div class="tap" style="left:6px;right:auto;bottom:-16px">👆</div></div>
+   <div class="msg2">أتريد تبديل الموقع أو تسجيل الخروج؟</div>
+   <div class="ob">تبديل الحساب</div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">6</div><h3>اكتب كلمة المرور الجديدة واحفظها</h3></div>
+  <p>تفتح صفحة «تغيير كلمة المرور». املأ الخانات الثلاث:</p>
+  <ol class="ol"><li><b>كلمة المرور الحالية:</b> <span class="k">St@2017</span> (بسنة ميلادك).</li><li><b>كلمة المرور الجديدة:</b> كلمة جديدة من اختيارك.</li><li><b>كلمة المرور الجديدة (مرة أخرى):</b> اكتبها نفسها مرة ثانية.</li><li>اضغط الزر الأزرق <b>«حفظ التغييرات»</b> ✅</li></ol>
+  <div class="rules"><b>شروط كلمة المرور الجديدة:</b>
+   <span>📏 7 أحرف على الأقل</span><span>🔠 حرف كبير <i class="k">A-Z</i></span><span>🔡 حرف صغير <i class="k">a-z</i></span><span>🔢 رقم <i class="k">0-9</i></span><span>✳️ رمز مثل <i class="k"># * -</i></span>
+   <div class="ex">مثال فقط: <span class="k">Sami#2017</span> — اختر كلمتك الخاصة</div></div>
+  <div class="phone"><div class="scr ar web"><div class="url ltr">https://moodle.unrwa.org/moodle/login/change_password</div>
+   <div class="alert">يجب عليك تغير كلمة المرور ليتسنى لك الاستمرار</div>
+   <div class="ttl">تغيير كلمة المرور</div>
+   <div class="wl">اسم المستخدم<br><span class="ltr">400000000</span></div>
+   <div class="wl">كلمة المرور الحالية <i class="req">!</i></div><div class="wf ltr">St@2017</div>
+   <div class="wl">كلمة المرور الجديدة <i class="req">!</i></div><div class="wf ltr">•••••••••</div>
+   <div class="wl">كلمة المرور الجديدة (مرة أخرى) <i class="req">!</i></div><div class="wf ltr">•••••••••</div>
+   <div class="wl"><span class="cb">✓</span> تسجيل خروج من كل تطبيقات الويب</div>
+   <div class="save">حفظ التغييرات</div>
+  </div></div>
+ </article>
+
+ <article class="glass step">
+  <div class="sh"><div class="num">7</div><h3>ادخل من جديد بكلمة المرور الجديدة</h3></div>
+  <p>بعد «حفظ التغييرات» يخرجك التطبيق تلقائيًا وتظهر شاشة «تسجيل الدخول». اكتب رقم الهوية و<b>كلمة المرور الجديدة</b>، ثم اضغط «تسجيل الدخول» 🎉 مبروك، أنت الآن في المنصة!</p>
+ </article>
+
+ <article class="glass step tip">
+  <div class="e">💡</div>
+  <div><h3>نصيحة مهمة</h3><p>اكتب كلمة المرور الجديدة في دفترك وأخبر بها ولي أمرك، ولا تعطها لأحد غيره. وإذا نسيتها أو واجهتك مشكلة، تواصل مع معلمك وسيساعدك 🤝</p></div>
+ </article>
+
+ <footer>بالتوفيق يا أبطال 🌟<b>أ. محمد أبو زهري</b>ذ/ بني سهيلا الإعدادية ب</footer>
+</div>
+<script>
+(function(){var u=navigator.userAgent||"",ios=/iPhone|iPad|iPod|Macintosh/.test(u)&&!/Android/.test(u)&&("ontouchend" in document||/iPhone|iPad|iPod/.test(u)),
+gp=document.getElementById("gp"),as=document.getElementById("as");
+if(ios){as.classList.add("hl");as.parentNode.insertBefore(as,gp)}else{gp.classList.add("hl")}
+var s=document.querySelectorAll(".step");
+if("IntersectionObserver" in window){var o=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");o.unobserve(x.target)}})},{threshold:.15});s.forEach(function(x){o.observe(x)})}else s.forEach(function(x){x.classList.add("in")});
+if(location.hash=="#shot")s.forEach(function(x){x.classList.add("in")})})();
+</script>
+</body>
+</html>
